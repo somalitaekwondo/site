@@ -1,0 +1,61 @@
+<?php
+/*----------------------------------------
+Connexion Data Base
+------------------------------------------*/
+
+$host = "mysql.somalitaekwondo.com";
+$user = "somali"; 
+$pass = "!d1k2t!2013";
+$database1 = "somali"; 
+
+$connection = mysql_connect($host, $user, $pass) or die (mysql_error());
+
+mysql_select_db($database1);
+
+mysql_query("SET NAMES 'utf8'");
+mysql_query('SET character_set_connection=utf8');
+mysql_query('SET character_set_client=utf8');
+mysql_query('SET character_set_results=utf8');
+
+
+//open file
+$fp = @fopen ("contact_elton_hotmail.txt", "r");
+
+
+
+$cont = 0;
+if ($fp) {
+     //for each line in file
+     while(!feof($fp)) {
+          //push lines into array
+          $this_line = fgets($fp);
+	  //$outraquery = mysql_query("SELECT * FROM MAIL_NEWSLETTER WHERE MAIL_NEWSLETTER LIKE '$this_line' ");
+	  //$outroarray = mysql_fetch_array($outraquery);
+	  //if($this_line!=$outroarray['MAIL_NEWSLETTER']){	  
+	  $name = substr($this_line, 0, strpos($this_line, '@'));
+	 // $email = substr($this_line, 0, strpos($this_line, ' ')); 
+	  $email = preg_replace('/\s/', '', $this_line);
+	  echo $email."<br>";
+	  $group = "7"; 
+	  $query_database1 = mysql_query("INSERT INTO MAIL_NEWSLETTER (MAIL_NEWSLETTER, ID_GROUP_NEWSLETTER, NAME_NEWSLETTER, DELETED) VALUES ('$email', '$group', '$name', 'NO') ") or die (mysql_error());
+	  if(!$query_database1) echo "something went fucking wrong from this line ".$this_line; 
+          
+	  };
+     };
+     //close file
+     fclose($fp);
+
+
+
+/*
+$nada ="";
+$query = mysql_query("SELECT * FROM MAIL_NEWSLETTER WHERE MAIL_NEWSLETTER LIKE '$nada' ");
+$cont = 0;
+while($array=mysql_fetch_array($query)) echo "<br>".$cont++;
+*/ 
+
+/* apagando tudo
+$query = mysql_query("DELETE FROM MAIL_NEWSLETTER WHERE ID_GROUP_NEWSLETTER LIKE '7' ")or die (mysql_error());
+if($query) echo " apagou" ;  else "nao apagou";
+*/
+?>

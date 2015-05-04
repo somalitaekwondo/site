@@ -1,0 +1,180 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{padding-top: 10px;
+    padding-bottom: 20px;
+	background: url(../img/bg.jpg) repeat;
+}
+.s1{color: #333;}
+h3, h4, h1{color: #326eb8;}
+.all{clear:both;}
+.container{position: relative;}
+a.brand{position: absolute !important;
+	width: 200px !important;
+	left:20px;
+	margin: -8px;
+}
+.yellow{color: #e8da00;}
+.blue{color: #326eb8;}
+.black80{color: #333;}
+nav .nav{margin-left: 180px !important;}
+.navbar{border-bottom: 4px solid black}
+
+#container{
+	padding: 10px;
+	background: white;
+	  -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	-moz-box-shadow: 1px 0px 3px #ccc;
+	-webkit-box-shadow: 1px 0px 3px#ccc;
+	box-shadow: 0px 0px 4px #ccc;
+	box-shadow:inset 0px 0px 4px #ccc;
+}
+#container p{color:#333;}
+ul.thumbnails li {background: #fafafa;
+	padding: 0px;}
+ul.thumbnails li p, ul.thumbnails li h4, ul.thumbnails li h3{
+	padding: 10px;}
+/*.ajusts .span4{padding:10px;}*/
+.sponsors li a.thumbnail{background: white;padding: 10px;}
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	margin-top: 20px;
+	margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+nav .navSocials{position: absolute;right: 0;top:5px;}
+nav .navSocials li{float:left;
+	list-style-type: none;
+	padding: 0 5px;}
+
+nav .navSocials li a{list-style-type: none}
+nav .navSocials li a{width: 32px;
+	height: 32px;text-indent: -9000px;
+	display:block;}
+nav .navSocials li a.gplus{background: url(../img/socials.png) -6px 0 no-repeat;}
+nav .navSocials li a.twitter{background: url(../img/socials.png) -59px 0 no-repeat;}
+nav .navSocials li a.fb{background: url(../img/socials.png) -111px 0 no-repeat;}
+nav .navSocials li a.rss{background: url(../img/socials.png) -163px 0 no-repeat;}
+	nav .navSocials li a:hover.gplus{background: url(../img/socials.png) -6px -38px no-repeat;}
+	nav .navSocials li a:hover.twitter{background: url(../img/socials.png) -59px -38px no-repeat;}
+	nav .navSocials li a:hover.fb{background: url(../img/socials.png) -111px -38px no-repeat;}
+	nav .navSocials li a:hover.rss{background: url(../img/socials.png) -163px -38px no-repeat;}
+
+
+.carousel{margin:20px 0 0 0;
+	padding-bottom:10px;}
+.box-donate-home{position: absolute;
+	padding: 16px;
+	z-index: 2;
+	bottom: 10px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 4px ;
+	-moz-border-radius: 4px ;
+	border-radius: 4px ;
+	
+ 	}
+ul.sponsors li{
+	/*width: 148px;*/
+	/*background: #fbfbfb;*/
+	/*border: 1px solid #f9f9f9;*/
+	list-style-type: none;
+	/*float:left;*/
+	margin: 10px 0;}
+ul.sponsors li a{padding: 8px;}
+
+.tabbable ul li a span.small{font-size:12px !important;}
+.tabbable ul li a {font-size:20px !important;
+	letter-spacing: 1px}
+
+.donatejustify{
+	width:230px;
+	height: 100%;
+	text-align: center;
+	margin: 60px auto 0;
+}
+.thumbnail a p{color: #333 !important; }
+/*register*/
+dl.register{float:left;}
+.registration, .didnot{margin:50px;
+	float:left;}
+.events{
+	margin-top:10px;
+	float:left;
+}
+/*thank you / cancel*/
+.tccenter{margin: 50px auto 0;
+	text-align: center;}
+/* end thank you / cancel*/
+
+/* page photo */
+.fancyphoto li{width: 235px;
+	height:100%;
+	float:left;
+	margin:14px;
+	list-style-type: none !important;
+	padding: 10px;
+	background: white;
+
+	  -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-moz-box-shadow: 1px 0px 3px #ccc;
+	-webkit-box-shadow: 1px 0px 3px#ccc;
+	box-shadow: 0px 0px 4px #ccc;
+	box-shadow:inset 0px 0px 4px #ccc;
+}
+/* end page photo */
+label.checkbox p, .aboutus .span7 p{text-align: justify !important;}
+
+
+
+footer p{padding:10px 0 0 10px;font-size:12px;
+	color:#ccc;float: left;}
+	footer .navFooter li{float: left; margin:15px 25px 0 0;list-style-type: none;}
+	footer .navFooter li a{color: #999;text-decoration: none;}
+	footer .navFooter li a:hover{color: #333;text-decoration: none;}
+/*http://www.paulund.co.uk/use-jquery-to-highlight-active-menu-item
+
+
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/#whatisapattern*/
+
+
+@media (max-width: 480px) {
+/*Iphone*/
+.navbar-inner{
+	margin-top:-20px;
+}
+.brand img{margin-top:-8px;}
+#container{
+	margin-top:20px;}
+}
+
+/*end Iphone*/
+
+
+ul.socialnetwork li{list-style-type: none; float:left;}
+ul.socialnetwork li.fb{margin: 0 20px;}
+.shidden{display: none;}
+
+/*facebook*/
+
+#fb-root {
+  display: none;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}

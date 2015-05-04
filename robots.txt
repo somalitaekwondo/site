@@ -1,0 +1,15 @@
+
+User-agent: *
+
+Sitemap: http://www.somalitaekwondo.com/sitemap.xml
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow:
+Allow: /*
+
+# Google AdSense
+User-agent: Mediapartners-Google*
+Disallow:
+Allow: /*
+

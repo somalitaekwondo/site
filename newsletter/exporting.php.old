@@ -1,0 +1,36 @@
+<?php
+/*----------------------------------------
+Connexion Data Base
+------------------------------------------*/
+
+$host = "mysql.somalitaekwondo.com";
+$user = "somali"; 
+$pass = "!d1k2t!2013";
+$database1 = "somali"; 
+$database2 = 'gotkd_mailling';
+$connection = mysql_connect($host, $user, $pass) or die (mysql_error());
+
+mysql_select_db($database1);
+mysql_select_db($database2);
+mysql_query("SET NAMES 'utf8'");
+mysql_query('SET character_set_connection=utf8');
+mysql_query('SET character_set_client=utf8');
+mysql_query('SET character_set_results=utf8');
+
+
+$query_database2 = mysql_query("SELECT * FROM newsletter");
+
+while($array_database2=mysql_fetch_array($query_database2)){
+mysql_select_db($database1);
+$email = $array_database2['email'];
+$group = "6"; 
+$name = $array_database2['name'];
+
+$query_database1 = mysql_query("INSERT INTO MAIL_NEWSLETTER (MAIL_NEWSLETTER, ID_GROUP_NEWSLETTER, NAME_NEWSLETTER, DELETED) VALUES ('$email', '$group', '$name', 'NO') ") or die (mysql_error())	;
+
+if(!$query_database2) echo "something went fucking wrong"; else "All the shit worked";
+
+mysql_select_db($database2);
+};
+
+?>

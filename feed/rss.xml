@@ -1,0 +1,28 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+        <channel>
+            <title>Somali Taekwondo</title>
+            <atom:link href="http://somalitaekwondo.com/feed/" type="application/rss+xml"/>
+            <link>http://somalitaekwondo.com</link>
+            <description>Somali Taekwondo National athletes representing the country for International Tournament</description>
+            <lastBuildDate>Wed, 16 May 2013 15:50:00 +0000</lastBuildDate>
+            <language>en</language>
+            <sy:updatePeriod>hourly</sy:updatePeriod>
+            <item>
+                <title>Somali Taekowndo | Home</title>
+                <pubDate>Thu, 16 May 2013 13:43:20 +0000</pubDate>
+                <description> Somali Taekwondo National athletes representing the country for International tournament, looking forward for medals in the Olympic Games and World Championship. </description>
+                <link>http://www.somalitaekwondo.com/home</link>
+                <dc:creator>Alex Oliveira</dc:creator>
+            </item>
+
+            <item>
+                <title> Somali Taekwondo | News </title>
+                <pubDate>Wed, 15 May 2013 13:43:20 +0000</pubDate>
+                <description> Keep up-to-date on all the news with somalitaekowndo.com</description>
+                <link>http://www.somalitaekwondo.com/news</link>
+                <dc:creator>Alex Oliveira</dc:creator>
+            </item>
+        </channel>
+    </rss>
+    
+

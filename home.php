@@ -44,23 +44,7 @@ section article {
           transition-property:         transform, opacity;
 }
         </style>
-        <script>
 
-  // jQuery(window).load(function(){
-
-  //      var $container = $('section');
-  //        // initialize isotope
-  //        $container.isotope({
-  //          itemSelector : 'article',
-  //           masonry: {
-  //              columnWidth: 10,
-  //              isFitWidth: true,
-  //            layoutMode : 'fitRows'
-  //         }
-  //        });
-  //  });
-
-  </script>
         <meta name="description" content=" | Somali Taekwondo National athletes representing the country for International tournament, looking forward for medals in the Olympic Games and World Championship.">
         <meta name="keywords" content=" | Somali, Taekwondo, National, athletes, representing, country, International, Tournament, medals, Olympic, Games, World, Championship">
         <link rel="alternate" type="application/rss+xml" title="Feed Somali Taekwondo  &raquo;" href="http://www.somalitaekwondo.com/feed/rss.xml" />
@@ -113,13 +97,35 @@ section article {
             </div> -->
             <article class="span8">
                 <ul class="thumbnails">
+
+                <li class="span4">
+                    <div>
+                        <a class="thumbnail" href="Somali-exile-fights-for-Olympic-dream">
+                            <img src="img/photo/faisal-somali.jpg" alt="Somali exile fights for Olympic dream">
+                            <h3 style="font-size: 20px">Somali exile fights for Olympic dream</h3>
+                            <p>Faisal Jeylani Aweys has not seen his native Somalia since he fled 14 years ago...</p>
+                        </a>
+                    </div>
+                </li>
+
                  <li class="span4">
+                    <div>
+                      <a class="thumbnail" href="NOCSOM-presents-2014-Sports-and-Arts-award-to-Eng-Ahme-Kirish">
+                          <img src="img/news/cayaaraha-photo-02.jpg" alt="NOCSOM presents 2014 Sports and Arts award to Eng Ahmed Kirish">
+                          <h3 style="font-size: 20px">NOCSOM presents 2014 Sports and Arts award to Eng Ahmed Kirish</h3>
+                          <p>With the name of "2014 sports and Arts Award", the Somali Olympic Committee's annual award...</p>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="span4">
                     <div>
                       <a class="thumbnail" href="The-Somali-Taekwondo-National-Team-Participated-And-Won-Branze-Medal-In-The-African-Taekwondo-Championshios-2014-In-Tunis-Tunisia"><img src="img/African-Championship-2014/elton-and-faisal.jpg" alt="wtf">
                       <h3 style="font-size: 20px">The Somali Taekwondo Team</h3>
                       <p>The Somali Taekwondo National athlete – Faisal Aweys 58Kg category representing the country...</p></a>
                     </div>
                   </li>
+
                  <li class="span4">
                     <div>
                       <a class="thumbnail" href="Somali-Taekwondo-Federation-Developed-a-Program-for-Rio-2016-Summer-Olympic-Games-in-Brazil"><img src="img/news/stkd2016.jpg" alt="wtf">

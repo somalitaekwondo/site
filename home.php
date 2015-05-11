@@ -103,6 +103,16 @@ $_SESSION['DONATED'] = $array['EVENT_BUDGET_DONATED'];
 
                     <li class="span4">
                         <div>
+                            <a class="thumbnail" href="ciyaartoyda-xulka-qaranka-soomaaliyeed">
+                                <img src="img/news/russia-01.jpg" alt="Somali exile fights for Olympic dream">
+                                <h3 style="font-size: 20px">CIYAARTOYDA  XULKA QARANKA SOOMAALIYEED EE...</h3>
+                                <p>Cayaartooyda ay si aad ah ugu farxay soo dhaweyntaas.</p>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="span4">
+                        <div>
                             <a class="thumbnail" href="Somali-exile-fights-for-Olympic-dream">
                                 <img src="img/photo/faisal-somali.jpg" alt="Somali exile fights for Olympic dream">
                                 <h3 style="font-size: 20px">Somali exile fights for Olympic dream</h3>
@@ -115,7 +125,7 @@ $_SESSION['DONATED'] = $array['EVENT_BUDGET_DONATED'];
                         <div>
                           <a class="thumbnail" href="NOCSOM-presents-2014-Sports-and-Arts-award-to-Eng-Ahme-Kirish">
                               <img src="img/news/cayaaraha-photo-02.jpg" alt="NOCSOM presents 2014 Sports and Arts award to Eng Ahmed Kirish">
-                              <h3 style="font-size: 20px">NOCSOM presents 2014 Sports and Arts award to Eng Ahmed Kirish</h3>
+                              <h3 style="font-size: 20px">NOCSOM presents 2014 Sports and Arts award to Eng Ahmed...</h3>
                               <p>With the name of "2014 sports and Arts Award", the Somali Olympic Committee's annual award...</p>
                           </a>
                         </div>
@@ -227,7 +237,7 @@ $_SESSION['DONATED'] = $array['EVENT_BUDGET_DONATED'];
 
                     </ul>
                </article>
-               
+
             </section>
 
             <?php include('inc/footer.inc') ?>

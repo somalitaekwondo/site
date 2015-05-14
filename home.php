@@ -148,7 +148,7 @@ $_SESSION['DONATED'] = $array['EVENT_BUDGET_DONATED'];
                       </li>
                      <li class="span4">
                         <div>
-                          <a class="thumbnail" href="Somali-Taekwondo-Federation-Developed-a-Program-for-Rio-2016-Summer-Olympic-Games-in-Brazil"><img src="img/news/wtc1.jpg" alt="wtf">
+                          <a class="thumbnail" href="Somali-Taekwondo-National-Team-in-the-World-Taekwondo-Championship"><img src="img/news/wtc1.jpg" alt="wtf">
                           <h3 style="font-size: 20px">World Taekwondo Championship</h3>
                           <p>From the 15th until 21th of July the World Taekwondo Championship took place in...</p></a>
                         </div>
